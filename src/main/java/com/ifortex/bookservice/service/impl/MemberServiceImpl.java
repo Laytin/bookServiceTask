@@ -1,17 +1,13 @@
 package com.ifortex.bookservice.service.impl;
 
 import com.ifortex.bookservice.dao.MemberDAO;
-import com.ifortex.bookservice.model.Book;
 import com.ifortex.bookservice.model.Member;
-import com.ifortex.bookservice.repository.BookRepository;
-import com.ifortex.bookservice.repository.MemberRepository;
 import com.ifortex.bookservice.service.MemberService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
 import java.util.List;
-import java.util.Optional;
 
 @Service
 public class MemberServiceImpl implements MemberService {
